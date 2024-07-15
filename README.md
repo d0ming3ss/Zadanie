@@ -61,3 +61,5 @@ Przycisk "Pokaż":
 - Ramka zawiera dwie opcje:
   - ZRESETUJ USTAWIENIA: Przywraca stronę do początkowych ustawień.
   - POKAŻ DANE OSOBOWE: Dokleja Twoje imię i nazwisko w nagłówku strony.
+
+src = Angular
