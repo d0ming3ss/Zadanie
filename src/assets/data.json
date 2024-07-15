@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "text": "Nulla convallis aliquet rhoncus."
+    },
+    {
+      "id": 3,
+      "text": "Praesent libero orci, tristique sollicitudin urna ut, vehicula ultricies lectus."
+    },
+    {
+      "id": 4,
+      "text": "Nunc imperdiet sed nisi in venenatis."
+    },
+    {
+      "id": 5,
+      "text": "Phasellus volutpat mi eget felis dignissim consequat sed non tortor."
+    },
+    {
+      "id": 6,
+      "text": "Nulla vitae vehicula erat, sed tempus arcu."
+    }
+  ],
+  "name": "Dominik Ciura"
+}

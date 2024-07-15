@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie rekrutacyjne</title>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="logo-html5.png" alt="Logo HTML5">
+        </a>
+        <div class="header-text">Zadanie <strong>rekrutacyjne</strong></div>
+    </header>
+    <div class="header-content">
+        <h1>Nagłówek H1</h1>
+    </div>
+    <main>
+        <div class="blocks">
+            <section class="block-first">
+                <h2>BLOK PIERWSZY</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="option-1" name="option">
+                        <label for="option1">Opcja pierwsza</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="option-2" name="option">
+                        <label for="option1">Opcja druga</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="option-random" name="option">
+                        <label for="option3">Opcja losowa</label><br>
+                    </li>
+                </ul>
+            </section>
+            <section class="block-second">
+                <h2>BLOK DRUGI</h2>
+                <div class="button-container">
+                    <button class="button" id="replace-button"><strong>ZASTĄP</strong></button>
+                    <button class="button" id="append-button"><strong>DOKLEJ</strong></button>
+                </div>
+            </section>
+            <section class="block-last">
+                <h2>BLOK Z BARDZO DŁUGĄ NAZWĄ, KTÓRA SAMA SIĘ PRZYTNIE...</h2>
+                <div class="content" id="content-area"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <button class="button" id="show-button"><strong>POKAŻ</strong></button>
+        <div class="popup" id="popup-container">
+            <button class="button" id="reset-button">Zresetuj ustawienia</button>
+            <button class="button" id="add-name-button">Pokaż dane osobowe</button>
+        </div>
+        <img src="css-is-awesome.png" alt="Footer image" class="footer-image">
+    </footer>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="main-content">
+    <div id="content-area">
+      <p *ngFor="let item of jsonData">{{ item.text }}</p>
+    </div>
+    <button id="replace-button" (click)="replaceContent()">Zamień zawartość</button>
+    <button id="append-button" (click)="appendContent()">Dodaj zawartość</button>
+  </div>
+  
+  
